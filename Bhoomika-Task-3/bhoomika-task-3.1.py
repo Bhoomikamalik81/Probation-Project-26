@@ -1,0 +1,11 @@
+import numpy as np
+arr = np.random.randint(1, 101, 10)
+print("Original Array:", arr)
+print("Maximum element:", np.max(arr))
+print("Minimum element:", np.min(arr))
+print("Mean:", np.mean(arr))
+print("Sum:", np.sum(arr))
+print("Index of maximum element:", np.argmax(arr))
+print("Index of minimum element:", np.argmin(arr))
+sorted_arr = np.sort(arr)
+print("Sorted Array:", sorted_arr)
