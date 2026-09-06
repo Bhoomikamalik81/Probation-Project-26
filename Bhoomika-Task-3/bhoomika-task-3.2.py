@@ -1,0 +1,15 @@
+import numpy as np
+arr = np.random.randint(1, 21, (3, 3))
+print("Entire Array:")
+print(arr)
+print("First Row:")
+print(arr[0])
+print("Second Column:")
+print(arr[:, 1])
+print("Element at position (2,2):")
+print(arr[1, 1])
+print("Sub-array:")
+print(arr[0:2, 0:2])
+arr[1, 1] = 99
+print("Modified Array:")
+print(arr)
