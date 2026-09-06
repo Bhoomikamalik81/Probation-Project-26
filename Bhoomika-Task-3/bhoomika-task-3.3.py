@@ -1,0 +1,12 @@
+import numpy as np
+arr1 = np.random.randint(1, 21, 10)
+arr2 = np.random.randint(1, 21, 10)
+print("First Array:", arr1)
+print("Second Array:", arr2)
+print("Addition:", arr1 + arr2)
+print("Subtraction:", arr1 - arr2)
+print("Multiplication:", arr1 * arr2)
+print("Division:", arr1 / arr2)
+print("Square of First Array:", arr1 ** 2)
+print("Dot Product:", np.dot(arr1, arr2))
+print("Sorted Second Array:", np.sort(arr2))
