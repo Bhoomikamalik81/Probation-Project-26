@@ -1,6 +1,6 @@
 import pandas as pd
 data = {
-    "Name": ["RAM", "BALRAM", "AAYUSHI", "GARGI", "VAIBHAV"],
+    "Name": ["adi", "boby", "candy", "dior", "ena"],
     "Age": [20, 21, 19, 22, 20],
     "Marks": [85, 90, 75, 95, 88]
 }
